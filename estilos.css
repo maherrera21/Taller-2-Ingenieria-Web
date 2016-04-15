@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #E1DEE1;
+	font-family: arial, century;
+}
+nav.menu2, header.cabecera-principal, nav.menu-superior, footer.pie-pagina, article.contenidos, main{
+	width: 90%;
+	background: #0163B2;
+	color: white;
+	margin: 0 auto;
+	text-align: right;
+	padding: 0.3em 0.9em;
+}
+
+header.cabecera-principal{
+	margin-top: 0.2em;
+	display: block;
+}
+header aside.logo, section.slogan , aside.noticia{
+	color: #fff;
+	display: inline-block;
+	padding: 0.9em 0.9em;
+}
+header aside.logo{
+	width: 20%;
+	text-align: left;
+}
+header section.slogan{
+	width: 10%;
+	text-align: left;
+}
+header aside.noticia{
+	width: 50%;
+	text-align: center;
+}
+nav.menu2{
+	margin-top: 0.2em;
+	text-align: center;
+}
+nav.menu-superior{
+	margin-top: 0.2em;
+	text-align: right;
+}
+nav.menu2 a{
+	color: #6FACDF;
+	text-decoration: none;
+	padding: 0 1em;
+}
+
+nav.menu2 a:hover{
+	background: #9AD2FF;
+	color: #000;
+}
+
+article.contenidos{
+	width: 90%;
+	text-align: center;
+}
+
+article.contenidos, article article.servicios, article article.accesos, aside.galeria{
+	display: inline-block;
+	margin-top: 0.2em;	
+}
+
+
+
+article article.servicios ,article article.accesos, aside.galeria{
+	background: #6688A4;
+	width: 33%;
+}
+
+main{
+	margin-top: 0.2em;
+}
+
+article.contenido, aside.modulo{
+	width: 90%;
+	display: inline-block;
+	background: #6688A4;
+}
+
+article.contenido{
+	width: 70%;
+	text-align: justify;
+}
+
+aside.modulo{
+	width: 20%;
+	text-align: justify;
+}
+
+footer.pie-pagina{
+	margin-top: 0.2em;
+	text-align: center;
+	color: white;
+
+}
+section.derechos, section.mapa{
+	width: 90%;
+	display: inline-block;
+	background: #6688A4;
+
+}
+
+section.derechos{
+	width: 45%;
+}
+
+section.mapa{
+	width: 45%;
+}
+
+@media screen and (max-width: 480px){
+
+	h1{
+		text-align: center;
+	}
+
+	header.cabecera-principal{
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav.menu2 a{
+		display: block;
+	}
+
+	article.contenidos{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 0.3em;
+	}
+	article.contenido, aside.modulo{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 0.3em;
+	}
+	section.derecho, section.mapa{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 0.3em;
+	}
+}
